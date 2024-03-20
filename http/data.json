@@ -1,0 +1,10 @@
+{
+  "name": "My Name",
+  "surname": "My Surname",
+  "achievements": [
+    {
+      "Золотой медвежонок": 1,
+      "Оскар": 1
+    }
+  ]
+}

@@ -1,9 +1,1 @@
-# name = input("ваше имя: ")
-# surname = input("ваша фамилия: ")
-# addres = input("адрес: ")
-# age = input("ваш возраст: ")
-# a = "тебя зовут: "
-# b = "твоя фамилия: "
-# c = "твой адрес: "
-# d = "твой возраст: "
-# print(a + name, b + surname, c + addres, d + age, sep="\n")  
+from __future__ 
