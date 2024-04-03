@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+  </head>
+  <body>
+    <h2>Users</h2>
+    <ul>
+      {%for user in users%}
+      <li style="margin-bottom: 10px">
+        <span style="font-weight: bold">Username:</span> {{ user.username }},
+        <span style="font-weight: bold">Phone:</span> {{ user.phone }},
+        <span style="font-weight: bold">Password:</span> {{ user.password }}
+      </li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>
